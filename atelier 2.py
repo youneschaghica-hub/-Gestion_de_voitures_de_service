@@ -67,3 +67,4 @@ for e in [e1, e2, e3]:
 e2.retirerVoiture()
 print("Après retrait de la voiture de dihia :")
 e2.afficherInformations()
+e2.affecterVoiture(v1)
