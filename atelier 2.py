@@ -64,3 +64,6 @@ e3.affecterVoiture(v3)
 print("Après affectation des voitures :")
 for e in [e1, e2, e3]:
     e.afficherInformations()
+e2.retirerVoiture()
+print("Après retrait de la voiture de dihia :")
+e2.afficherInformations()
