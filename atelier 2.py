@@ -51,3 +51,9 @@ v3 = Voiture("IJ-789-KL", 2022, "GMC", 90000)
 e1 = Employe("P123456", "alex", "batna ")
 e2 = Employe("P654321", "dihia", "Alice")
 e3 = Employe("P987654", "francis", "lookman")
+
+for e in [e1, e2, e3]:
+    e.afficherInformations()
+
+for v in [v1, v2, v3]:
+    v.afficherInformations()
