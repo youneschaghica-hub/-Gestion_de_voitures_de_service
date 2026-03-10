@@ -57,3 +57,10 @@ for e in [e1, e2, e3]:
 
 for v in [v1, v2, v3]:
     v.afficherInformations()
+e1.affecterVoiture(v1)
+e2.affecterVoiture(v2)
+e3.affecterVoiture(v3)
+
+print("Après affectation des voitures :")
+for e in [e1, e2, e3]:
+    e.afficherInformations()
